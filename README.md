@@ -6,7 +6,6 @@
 A Full Stack web scraping solution that extracts product data (title, price, and availability) from e-commerce sites. This project consists of a **Node.js/Express REST API** utilizing **Puppeteer** for headless browsing, and a responsive **Frontend** client to interact with the service.
 
 ![Project Preview](./preview.png)
-*(Note: Please add a screenshot of your running application here and name it preview.png)*
 
 ## 🚀 Features
 
