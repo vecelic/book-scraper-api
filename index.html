@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper API Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>📚 Book Scraper</h1>
+            <p>Paste a URL from 'books.toscrape.com' to extract data.</p>
+        </header>
+
+        <main>
+            <div class="input-group">
+                <input type="text" id="urlInput" placeholder="https://books.toscrape.com/..." />
+                <button id="scrapeBtn">Scrape Now</button>
+            </div>
+
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Processing request...</p>
+            </div>
+
+            <div id="result" class="hidden">
+                <h2>Result:</h2>
+                <div class="card">
+                    <p><strong>Title:</strong> <span id="bookTitle">...</span></p>
+                    <p><strong>Price:</strong> <span id="bookPrice">...</span></p>
+                    <p><strong>Availability:</strong> <span id="bookAvailability">...</span></p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
